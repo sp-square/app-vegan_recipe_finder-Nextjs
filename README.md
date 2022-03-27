@@ -1,1 +1,1 @@
-# app-vegan_recipe_finder-Nextjs
+# app-vegan_recipe_finder-nextjs
