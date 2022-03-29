@@ -20,3 +20,13 @@ a {
 * {
 	box-sizing: border-box;
 }
+
+:root {
+	--text-green: rgb(4, 247, 194);
+	--text-green-light: rgb(17, 243, 205);
+	--text-blue-light: rgb(17, 228, 243);
+	--text-purple: rgba(67, 56, 202, 1);
+	--text-purple-dark: rgba(79, 70, 229, 1);
+	--text-black: rgba(17, 24, 39, 1);
+	--text-white-100: rgba(229, 231, 235, 1);
+}
