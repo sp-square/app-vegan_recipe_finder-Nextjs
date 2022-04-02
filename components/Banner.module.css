@@ -5,7 +5,8 @@
 	z-index: 2;
 }
 .title {
-	letter-spacing: -0.025em;
+	font-family: 'Comforter';
+	letter-spacing: 0.025em;
 	font-weight: 800;
 	color: var(--text-black);
 
@@ -38,7 +39,6 @@
 	cursor: pointer;
 	color: white;
 	outline: 0;
-	border: 0px;
 	padding-top: 1rem /* 16px */;
 	padding-bottom: 1rem /* 16px */;
 	font-size: 1.125rem /* 18px */;
@@ -107,7 +107,7 @@
 	}
 
 	.title {
-		font-size: 4.5rem /* 72px */;
+		font-size: 6.5rem /* 72px */;
 		line-height: 1;
 	}
 
