@@ -2,7 +2,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
-import Banner from '../components/banner';
+import Banner from '../components/Banner';
+import Card from '../components/Card';
+
+import recipes from '../data/dummy.json';
 
 export default function Home() {
 	const handleOnBannerBtnClick = (e) => {
@@ -23,6 +26,19 @@ export default function Home() {
 					buttonText="Search Recipes"
 					handleOnClick={handleOnBannerBtnClick}
 				/>
+				<div className={styles.cardLayout}>
+					{recipes.map((recipe) => {
+						return (
+							<Card
+								className={styles.card}
+								key={recipe.id}
+								name={recipe.name}
+								imgUrl={recipe.imgUrl}
+								href={`/recipes/${recipe.id}`}
+							/>
+						);
+					})}
+				</div>
 			</main>
 		</div>
 	);
